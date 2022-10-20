@@ -1,0 +1,26 @@
+body {
+  margin-top: 50px;
+}
+.contentI {
+  text-align: center;
+}
+.hello {
+    font-size: 36px;
+    font-weight: bold;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+.me {
+  background-color: #FFFFFF;
+}
+.profile .name {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+.profile .about-me {
+    font-size: 26px;
+    padding: 30px;
+}

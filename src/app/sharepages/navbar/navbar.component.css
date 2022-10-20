@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #FFFFFF;
+}
+.nav-item :hover {
+  background-color: #000;
+  color: #FFFFFF;
+}
+.nav-item a :active {
+  font-weight: bold;
+  color: #000;
+  background-color: #000;
+}
