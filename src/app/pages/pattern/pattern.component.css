@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+}
+.pattern {
+    margin: 30px;
+}
+input {
+    margin-right: 30px;
+}
+.contentI {
+    font-size: 18px;
+}
+button {
+    font-size: 16px;
+}

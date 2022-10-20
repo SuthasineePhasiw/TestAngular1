@@ -5,8 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './sharepages/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
-import { FormComponent } from './pages/form/form.component';
-import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FizzbuzzComponent } from './pages/fizzbuzz/fizzbuzz.component';
+import { LeapyearComponent } from './pages/leapyear/leapyear.component';
+import { PrimeComponent } from './pages/prime/prime.component';
+import { CalculateComponent } from './calculate/calculate.component';
+import { PatternComponent } from './pages/pattern/pattern.component';
 
 
 
@@ -15,13 +18,15 @@ import { FormsModule, ReactiveFormsModule} from '@angular/forms';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    FormComponent,
+    FizzbuzzComponent,
+    LeapyearComponent,
+    PrimeComponent,
+    CalculateComponent,
+    PatternComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
