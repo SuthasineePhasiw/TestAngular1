@@ -20,6 +20,9 @@ img {
     font-size: 36px;
     font-weight: bold;
 }
+.pos {
+  font-size: 22px;
+}
 .profile .about-me {
     font-size: 26px;
     padding: 30px;

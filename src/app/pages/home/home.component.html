@@ -9,17 +9,17 @@
     
       <div class="contentI">
         <div class="hello  mt-5 mb-5">
-            Hello World
+            {{ head }}
         </div>
         <div class="text-center">
             <img src="./assets/immage.jpg"  class="rounded-circle" alt="">
         </div>
         <div class="profile">
-            <div class="name mt-5 mb-5">Suthasinee Phasiw</div>
+            <div class="name mt-5 mb-2"> {{ name }} </div>
+            <div class="pos mb-5"> {{ position }} </div>
             <div class="me p-3">
               <div class="container about-me">
-                Hello, I'm Immage. I useed to be an intern as an HTML Editor. I have a good understanding 
-              of HTML CSS SCSS. Now, I'm leaning how to use Angular and I'm very responsible and able to socialize.
+                {{ description }}
             </div>
           </div>
         </div>
