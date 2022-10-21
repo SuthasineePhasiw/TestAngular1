@@ -7,11 +7,7 @@ import { EventEmitter } from 'stream';
   styleUrls: ['./fizzbuzz.component.css'],
 })
 export class FizzbuzzComponent implements OnInit {
-
-  value = 0 ;
-
-  Fizzbuzz(value:string) {
-    const num = Number(value);
+  Fizzbuzz(num:number) {
     for (let i = 1; i <= num; i++) {
       if (i % 3 == 0 && i % 5 == 0) {
         console.log('FizzBuzz');
@@ -24,7 +20,6 @@ export class FizzbuzzComponent implements OnInit {
       }
     }
   }
-
   constructor() {}
 
   ngOnInit(): void {}

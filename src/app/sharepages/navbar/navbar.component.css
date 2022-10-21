@@ -1,12 +1,9 @@
 .navbar {
-  background-color: #FFFFFF;
+  background-color: #BCE29E;
 }
 .nav-item :hover {
-  background-color: #000;
   color: #FFFFFF;
 }
-.nav-item a :active {
-  font-weight: bold;
-  color: #000;
-  background-color: #000;
+.active :hover{
+  color: white;
 }

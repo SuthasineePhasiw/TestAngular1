@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prime.component.css'],
 })
 export class PrimeComponent implements OnInit {
-
-  value = 0 ;
+  value = 0;
   isPrime(value: string) {
     const num = Number(value);
     for (let i = 2; i <= num; i++) {
